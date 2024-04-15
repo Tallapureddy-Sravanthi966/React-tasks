@@ -1,25 +1,34 @@
 import logo from './logo.svg';
-import './App.css';
+// import './App.css';
+// import {Login as Sravs} from './functional component/login';
+// import Button from './classcomponents/login';
+// import Image from './functional component/image';
+// import Image1 from './classcomponents/image';
+// import Listcomponent from './functional component/map';
+import TableComponent from './functional component/table/table';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    
+    {/* <Sravs></Sravs>
+    <Button/>
+    <br></br>
+    <br></br>
+    <br></br>
+    <Image/>
+    <br></br>
+    <Image1/>
+    <Listcomponent/> */}
+    <TableComponent/>
+   
+    
+    </>
   );
 }
 
 export default App;
+
+//named export
+//default export
